@@ -8,7 +8,8 @@ missing (depending on the numbers defined when initially generating).
 
 This will return an array containing $parts entries. Note that the returned
 data is binary and you will most usually want to apply something such as
-base64\_encode() on it.
+base64\_encode() on it. You can define the number of parts to generate and
+the minimum number of required parts to rebuild the string.
 
 	raidRepair(array $data, $length)
 
